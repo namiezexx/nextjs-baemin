@@ -4,7 +4,7 @@ export default function BottomNavigation() {
             <div className="flex w-full justify-between py-4 px-6">
                 <div className="flex flex-col text-center space-y-[2px]">
                     {/* search icon */}
-                    <span className="hover:cursor-pointer hover:text-black/30">
+                    <span className="flex w-full justify-center hover:-translate-y-2 hover:cursor-pointer hover:text-black/30 transition duration-300">
                         <svg 
                             xmlns="http://www.w3.org/2000/svg" 
                             fill="none" 
@@ -24,7 +24,7 @@ export default function BottomNavigation() {
                 </div>
                 <div className="flex flex-col text-center space-y-[2px]">
                     {/* heart icon */}
-                    <span className="flex w-full justify-center hover:-translate-y-2 hover:cursor-pointer transition duration-300">
+                    <span className="flex w-full justify-center hover:-translate-y-2 hover:cursor-pointer hover:text-black/30 transition duration-300">
                         <svg 
                             xmlns="http://www.w3.org/2000/svg" 
                             fill="none" 
@@ -44,7 +44,7 @@ export default function BottomNavigation() {
                 </div>
                 <div className="flex flex-col text-center space-y-[2px]">
                     {/* home icon */}
-                    <span className="flex w-full justify-center hover:-translate-y-2 hover:cursor-pointer transition duration-300">
+                    <span className="flex w-full justify-center hover:-translate-y-2 hover:cursor-pointer hover:text-black/30 transition duration-300">
                         <svg 
                             xmlns="http://www.w3.org/2000/svg" 
                             fill="none" viewBox="0 0 24 24" 
@@ -63,7 +63,7 @@ export default function BottomNavigation() {
                 </div>
                 <div className="flex flex-col text-center space-y-[2px]">
                     {/* bill icon */}
-                    <span className="flex w-full justify-center hover:-translate-y-2 hover:cursor-pointer transition duration-300">
+                    <span className="flex w-full justify-center hover:-translate-y-2 hover:cursor-pointer hover:text-black/30 transition duration-300">
                         <svg 
                             xmlns="http://www.w3.org/2000/svg" 
                             fill="none" viewBox="0 0 24 24" 
@@ -82,7 +82,7 @@ export default function BottomNavigation() {
                 </div>
                 <div className="flex flex-col text-center space-y-[2px]">
                     {/* smile icon */}
-                    <span className="flex w-full justify-center hover:-translate-y-2 hover:cursor-pointer transition duration-300">
+                    <span className="flex w-full justify-center hover:-translate-y-2 hover:cursor-pointer hover:text-black/30 transition duration-300">
                         <svg 
                             xmlns="http://www.w3.org/2000/svg" 
                             fill="none" 
